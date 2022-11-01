@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+*{
+    margin: auto;
+    font-family: 'Titillium Web', sans-serif;
+  
+}
+body{
+    background: rgb(2,0,36);
+   background: linear-gradient(rgba(13,17,102,1)  rgb(197, 210, 212));
+}
+h1{
+    display: flex;
+    justify-content: center ;
+    margin-top: 3%;
+    color: aliceblue;
+}
+.add-task{
+    color: rgb(8, 8, 8);
+    margin-left: 28%;
+    margin-top: 5%;
+}
+.add-task input{
+    width: fit-content;
+    min-width: 500px;
+}
+button{
+    border-radius: 12px;
+    cursor: pointer;
+    border-color: navajowhite;
+    box-shadow:  1px 1px 4px salmon;
+}
+.display-task{
+    background-color: rgba(240, 255, 255, 0.041);
+    padding: 12px;
+
+  
+   
+}
+
+ui{
+    list-style: none;
+    
+    
+}
+li{
+    display: inline;
+    padding-left: 1%;
+    color: aliceblue;
+}
+
