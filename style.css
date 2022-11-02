@@ -31,6 +31,8 @@ button{
     cursor: pointer;
     border-color: navajowhite;
     box-shadow:  1px 1px 4px salmon;
+    margin-top: 21px;
+    margin-left: 5px;
 }
 .display-task{
     background-color: rgba(240, 255, 255, 0.041);
@@ -50,4 +52,6 @@ li{
     padding-left: 1%;
     color: aliceblue;
 }
+
+
 
